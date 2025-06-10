@@ -1,0 +1,57 @@
+# Simulador de Corrida de Processos no Terminal
+Este projeto é um minijogo interativo em C que simula uma corrida entre processos, onde cada processo é representado por um cavalo correndo em uma pista. A ideia é representar conceitos de escalonamento de CPU, tempo de execução e concorrência de forma visual e divertida no terminal.
+
+#  Sobre o Projeto
+Nesta simulação, cada cavalo funciona como se fosse um processo do sistema. Cada um possui um tempo de execução diferente (simulado aleatoriamente) e compete para ver quem termina primeiro, de acordo com a política de escalonamento escolhida.
+
+O jogo é exibido no terminal, com barra de progresso para cada cavalo (processo), atualizada em tempo real.
+
+# Objetivos da Atividade
+Aplicar na prática os conceitos de escalonamento de processos (FIFO e SJF).
+
+Simular execução com tempos de CPU variados.
+
+Visualizar em tempo real o avanço dos processos.
+
+Reforçar conceitos de concorrência, tempo de execução e políticas de escalonamento.
+
+Propor uma visualização divertida, com nomes criativos e barra de progresso.
+
+# Como Jogar
+Ao executar o programa, o usuário escolhe entre dois modos de escalonamento:
+
+Modo FIFO (First In, First Out):
+Os cavalos correm um de cada vez, na ordem em que foram definidos.
+
+Modo SJF (Shortest Job First):
+Os cavalos com menor tempo de execução correm primeiro. Isso simula a priorização de processos mais curtos.
+
+Durante a corrida:
+
+Cada cavalo tem um tempo de execução aleatório.
+
+A pista é exibida como uma barra com símbolos (>).
+
+O avanço de cada cavalo aparece em tempo real.
+
+No final, o programa mostra quem venceu a corrida.
+
+# Conceitos Aplicados
+Escalonamento de CPU: FIFO e SJF.
+
+Simulação de processos com diferentes tempos de execução.
+
+Visualização concorrente (um por vez ou com ordenação).
+
+Animação no terminal com uso de barra de progresso.
+
+Funções e controle de fluxo em C.
+
+# Requisitos Atendidos
+✅ Exibe de 3 a 5 "processos" e seu progresso
+✅ Simula execução com tempos de CPU variados
+✅ Usa duas políticas reais de escalonamento (FIFO e SJF)
+✅ Mostra o avanço em tempo real
+✅ Mostra o vencedor da corrida
+✅ Apresenta nomes e símbolos criativos para tornar a simulação mais divertida
+
